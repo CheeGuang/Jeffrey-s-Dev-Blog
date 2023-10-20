@@ -1,0 +1,138 @@
+html {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  color: #fafaf9;
+  background-color: #292524;
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+}
+
+#chef_img {
+  height: 100px;
+  border-radius: 500px;
+}
+
+#profile {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: 160px;
+  margin-bottom: 200px;
+  align-items: center;
+}
+
+#greeting_img {
+  background-image: url("background.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 120vh;
+  align-items: center;
+  text-align: center;
+  max-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 0%;
+}
+
+#text1 {
+  margin-left: 35px;
+  margin-top: 30px;
+}
+
+#div_vid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+
+#div_description {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 60px;
+}
+
+#div_description1 {
+  width: 40%;
+}
+
+#div_description2 {
+  width: 60%;
+}
+
+li {
+  margin: 30px;
+}
+
+ol {
+  margin-left: 30px;
+}
+
+form {
+  margin-left: 70px;
+}
+
+input {
+  margin-bottom: 30px;
+}
+
+footer {
+  height: 35vh;
+  background-color: #1c1917;
+}
+
+#back_to_top {
+  margin-left: 49%;
+}
+
+#up_arrow {
+  height: 30px;
+  padding: 10px;
+  margin-top: -30px;
+  border-radius: 50%;
+  background-color: #f5f5f4;
+}
+
+#div_mr_chef_logo {
+  display: flex;
+  justify-content: center;
+}
+
+#mr_chef_logo {
+  height: 110px;
+  margin-top: 40px;
+  margin-left: -50px;
+}
+
+#text3 {
+  text-align: center;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: "Modern 20";
+  font-size: 135px;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-family: "Modern 20";
+  font-size: 60px;
+  margin-top: 80px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+#privacy_policy {
+  cursor: pointer;
+  text-decoration: underline;
+}

@@ -1,0 +1,114 @@
+html {
+  margin: 0px;
+  background-color: #292524;
+  color: #f5f5f4;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+}
+
+/* Nav Bar Style */
+
+nav {
+  padding: 10px;
+  height: 60px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#nav-buttons {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-button {
+  display: inline;
+  margin-right: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.nav-button-text {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  padding: 5px 10px;
+}
+
+.nav-button-text:hover {
+  background-color: #555;
+  text-decoration: underline;
+  border-radius: 5px;
+}
+
+/* Naviagtion Route */
+#navigation-route {
+  width: 60%;
+  margin-left: 6%;
+}
+/* Text Header Styles */
+h1 {
+  font-family: "Young Serif";
+  font-size: 135px;
+  color: #292524;
+  -webkit-text-stroke: 0.0005em;
+  -webkit-text-stroke-color: white;
+  position: absolute;
+  top: -30px;
+  right: 80px;
+}
+
+h2 {
+  font-family: "Caveat";
+  font-weight: 700;
+  font-size: 90px;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Caveat";
+  white-space: nowrap;
+  margin-right: 3%;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+/* Footer Styles */
+
+footer {
+  height: 35vh;
+  background-color: #1c1917;
+}
+
+#privacy_policy {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#back_to_top {
+  margin-left: 49%;
+}
+
+#up_arrow {
+  height: 30px;
+  padding: 10px;
+  margin-top: -24px;
+  border-radius: 50%;
+  background-color: #f5f5f4;
+}
+
+#div_mr_chef_logo {
+  display: flex;
+  justify-content: center;
+}
+
+#text3 {
+  text-align: center;
+  font-size: 20px;
+}
