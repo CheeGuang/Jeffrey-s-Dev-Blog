@@ -14,13 +14,15 @@ body {
 nav {
   padding: 10px;
   height: 60px;
-  display: flex;
-  flex-direction: row-reverse;
 }
 
 #nav-buttons {
   list-style-type: none;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .nav-button {
@@ -33,20 +35,39 @@ nav {
   color: white;
   text-decoration: none;
   font-size: 1.3em;
-  padding: 5px 10px;
+  padding: 9px 15px;
 }
 
 .nav-button-text:hover {
   background-color: #555;
-  text-decoration: underline;
   border-radius: 5px;
 }
 
-/* Naviagtion Route */
-#navigation-route {
-  width: 60%;
-  margin-left: 6%;
+#nav-selected {
+  background-color: #44403c;
+  border-radius: 15px;
 }
+
+/* Naviagtion Route */
+#navigation-section {
+  background-image: url("assets/images/ocean-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 7%;
+}
+
+#navigation-route {
+  width: 64%;
+}
+
+#scoll {
+  width: 32%;
+}
+
 /* Text Header Styles */
 h1 {
   font-family: "Young Serif";
@@ -84,15 +105,10 @@ p {
 footer {
   height: 35vh;
   background-color: #1c1917;
-}
-
-#privacy_policy {
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-#back_to_top {
-  margin-left: 49%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
 
 #up_arrow {
@@ -103,9 +119,8 @@ footer {
   background-color: #f5f5f4;
 }
 
-#div_mr_chef_logo {
-  display: flex;
-  justify-content: center;
+#footer-logo {
+  width: 17%;
 }
 
 #text3 {
