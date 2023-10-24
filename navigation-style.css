@@ -64,12 +64,46 @@ nav {
   width: 64%;
 }
 
-#scoll {
-  width: 32%;
+#map {
+  background-image: url("assets/images/navigation-route.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 63%;
+  height: 85%;
+  background-size: 100% 100%;
+  margin: 0 0;
+}
+
+#character {
+  width: 20%;
+  position: absolute;
+  top: 12%;
+  right: 19%;
+}
+
+#scroll {
+  background-image: url("assets/images/scroll.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 66%;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  color: #1c1917;
+}
+
+#scroll-details {
+  margin-right: 0px;
+  margin-left: 8%;
+  font-size: 1.9em;
+  width: 68%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Text Header Styles */
-h1 {
+/* h1 {
   font-family: "Young Serif";
   font-size: 135px;
   color: #292524;
@@ -78,13 +112,15 @@ h1 {
   position: absolute;
   top: -30px;
   right: 80px;
-}
+} */
 
-h2 {
+h1 {
   font-family: "Caveat";
   font-weight: 700;
-  font-size: 90px;
+  font-size: 4.4em;
   text-align: center;
+  margin-top: 0.7em;
+  margin-bottom: 0;
 }
 
 h3 {
