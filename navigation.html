@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="navigation-style.css" />
+    <!-- <script src="navigation-script.js"></script> -->
   </head>
   <body>
     <nav>
@@ -23,9 +24,8 @@
             >Navigation Route</a
           >
         </li>
-        <!-- <p>Proposed route to conquer the Front-End Development Module!!</p> -->
         <li class="nav-button">
-          <a class="nav-button-text" href="#">Skills Aquired</a>
+          <a class="nav-button-text" href="skills-aquired.html">Achievements</a>
         </li>
         <li class="nav-button">
           <a class="nav-button-text" href="#">References</a>
@@ -33,14 +33,57 @@
       </ul>
     </nav>
     <section id="navigation-section">
-      <span id="map"
-        ><img
+      <span id="map">
+        <img
           id="character"
           src="assets/images/character.png"
           alt="Sailor Character Image"
-      /></span>
+        />
+        <button id="week1" class="hoverable" onclick="updateScrollWk1()">
+          Week 1
+        </button>
+        <button id="week2" class="hoverable" onclick="updateScrollWk2()">
+          Week 2
+        </button>
+        <button id="week3" class="hoverable" onclick="updateScrollWk3()">
+          Week 3
+        </button>
+        <button id="week4" class="hoverable" onclick="updateScrollWk4()">
+          Week 4
+        </button>
+        <button id="week5" class="hoverable" onclick="updateScrollWk5()">
+          Week 5
+        </button>
+        <button id="week6" class="hoverable" onclick="updateScrollWk6()">
+          Week 6
+        </button>
+        <button id="week7" class="hoverable" onclick="updateScrollWk7()">
+          Week 7
+        </button>
+        <button id="week8" class="hoverable" onclick="updateScrollWk8()">
+          Week 8
+        </button>
+        <button id="week9" class="hoverable" onclick="updateScrollWk9()">
+          Week 9
+        </button>
+        <button id="week10" class="hoverable" onclick="updateScrollWk10()">
+          Week 10
+        </button>
+        <button id="week11" class="hoverable" onclick="updateScrollWk11()">
+          Week 11
+        </button>
+        <button id="week12" class="hoverable" onclick="updateScrollWk12()">
+          Week 12
+        </button>
+        <button id="week13" class="hoverable" onclick="updateScrollWk13()">
+          Week 13
+        </button>
+        <button id="week14" class="hoverable" onclick="updateScrollWk14()">
+          Week 14
+        </button>
+      </span>
       <span id="scroll"
-        ><h1>Week 1</h1>
+        ><h1 id="scroll-header">Week 1</h1>
         <ul id="scroll-details">
           <li>Introduction to HTML</li>
         </ul></span
@@ -61,5 +104,6 @@
       />
       <p id="text3">Done by: Jeffrey Lee, S10258143A, IT02</p>
     </footer>
+    <script src="navigation-script.js"></script>
   </body>
 </html>

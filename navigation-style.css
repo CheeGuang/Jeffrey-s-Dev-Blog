@@ -14,6 +14,7 @@ body {
 nav {
   padding: 10px;
   height: 60px;
+  background-color: #1c1917;
 }
 
 #nav-buttons {
@@ -39,12 +40,12 @@ nav {
 }
 
 .nav-button-text:hover {
-  background-color: #555;
+  background-color: #3d3c3c;
   border-radius: 5px;
 }
 
 #nav-selected {
-  background-color: #44403c;
+  background-color: #323030;
   border-radius: 15px;
 }
 
@@ -82,6 +83,93 @@ nav {
   right: 19%;
 }
 
+button {
+  cursor: pointer;
+  position: absolute;
+  width: 11%;
+  height: 12%;
+  border-radius: 50%;
+  border-color: transparent;
+  color: transparent;
+  background-color: transparent;
+}
+
+.hoverable:hover {
+  background-color: #d4d4d4;
+  opacity: 30%;
+  transition-duration: 0.5s;
+}
+
+#week1 {
+  top: 19.7%;
+  right: 23.7%;
+}
+
+#week2 {
+  top: 32.6%;
+  right: 30.8%;
+}
+
+#week3 {
+  top: 46.1%;
+  right: 26%;
+}
+
+#week4 {
+  top: 53.5%;
+  right: 14.5%;
+}
+
+#week5 {
+  top: 66.1%;
+  right: 9.6%;
+}
+
+#week6 {
+  top: 76.8%;
+  right: 16.7%;
+}
+
+#week7 {
+  top: 76.8%;
+  right: 30.7%;
+}
+
+#week8 {
+  top: 73.2%;
+  right: 43%;
+}
+
+#week9 {
+  top: 62.5%;
+  right: 52.2%;
+}
+
+#week10 {
+  top: 58.09%;
+  right: 65.2%;
+}
+
+#week11 {
+  top: 49.4%;
+  right: 75.2%;
+}
+
+#week12 {
+  top: 34.8%;
+  right: 78.9%;
+}
+
+#week13 {
+  top: 29.4%;
+  right: 67.9%;
+}
+
+#week14 {
+  top: 30.3%;
+  right: 54.3%;
+}
+
 #scroll {
   background-image: url("assets/images/scroll.png");
   background-size: cover;
@@ -100,6 +188,10 @@ nav {
   font-size: 1.9em;
   width: 68%;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  margin-bottom: 5%;
 }
 
 /* Text Header Styles */
