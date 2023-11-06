@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Outdoor Adventure Registration Form</h1>
+    <form>
+      <ul>
+        <li>
+          <label for="text">Name: </label>
+          <input type="text" name="name" required />
+        </li>
+        <li>
+          <label for="email">Email: </label>
+          <input type="email" name="email" required />
+        </li>
+        <li>
+          <label for="date">Date of Birth: </label>
+          <input type="date" name="date_of_birth" required />
+        </li>
+        <li>
+          <label type="text">Nationality: </label>
+          <div class="selection">
+            <input type="radio" />
+            <label type="text">Singaporean</label>
+            <input type="radio" name="nationality" required />
+            <label type="text">Malaysian</label>
+            <input type="radio" name="nationality" required />
+            <label type="text">Japanese</label>
+            <input type="radio" name="nationality" required />
+            <label type="text">Korean</label>
+            <input type="radio" name="nationality" required />
+            <label type="text">Others: </label>
+            <input type="text" name="nationality" required />
+          </div>
+        </li>
+        <li>
+          <label for="text">Allergies</label>
+          <div class="selection">
+            <input type="checkbox" name="allergies" required />
+            <label for="text">Peanut</label>
+            <input type="checkbox" name="allergies" required />
+            <label for="text">Shellfish</label>
+            <input type="checkbox" name="allergies" required />
+            <label for="text">Mango</label>
+            <input type="checkbox" name="allergies" required />
+            <label for="text">Dairy</label>
+            <input type="checkbox" name="allergies" required />
+            <label for="text">Others: </label>
+            <input type="text" name="allergies" />
+          </div>
+        </li>
+        <li>
+          <label for="text">Short Writeup About Why You Want To Join.</label>
+          <textarea rows="4" cols="50" name="writeup" required></textarea>
+        </li>
+        <li>
+          <div class="selection">
+            <input type="radio" name="agreeTnC" required />
+            <label for="text"
+              >I have read and agree to the terms and conditions.</label
+            >
+          </div>
+        </li>
+        <input type="button" name="btnSubmit" value="Submit" />
+      </ul>
+    </form>
+  </body>
+</html>
